@@ -1,0 +1,60 @@
+/*hola*/
+/*usando class*/
+.azul{
+	background-color: blue;
+}
+/*cambiando colores a las etiquetas*/
+h1,h2,p{
+	color:black;
+}
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;
+}
+/*USANDO ID*/
+#titulo{
+	background-color: red;
+}
+/*Llamando al li siguiente del primero*/
+li:first-of-type + li{
+	color:white;
+}
+/*llamando al primer hijo de ol*/
+ol li:first-child{
+	color:green;
+}
+/*llamando al ultimo hijo de ol*/
+li:last-child{
+	color:yellow;}
+/* llamando caja uno*/
+.caja{
+	background-color:yellow;
+	padding: 1em;
+	border: 1em dotted black;
+}
+/*llamando caja 2 y aplicando display para que no se vea la caja*/
+.caja2{
+	background-color: red;
+	padding-top: 1em;
+	margin-top: 1em;
+	border: 1em inset pink;
+	display: none;
+}
+h2{
+	text-align: center;
+}
+/*comparando caja2 y caja3 aplicando discplay*/
+.caja3{
+	background-color: purple;
+	padding-top: 1em;
+	margin-top: 1em;
+	border: 1em inset gray;
+}
+h3{
+	text-align: center;
+}
+/*llamando a body para que el margen sea 0 y quede pegados a la estructura*/
+body{
+	margin: 0;
+}
